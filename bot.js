@@ -10,3 +10,5 @@ client.on('message', msg => {
     message.channel.send('all hail the dna ordinal');
   }
 })
+
+client.login(process.env.TOKEN);
