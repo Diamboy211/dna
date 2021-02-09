@@ -6,8 +6,8 @@ client.once('ready', _=>{
 });
 
 client.on('message', msg => {
-  if (msg.content.slice(0, 7) == 'worship') {
-    message.channel.send('all hail the dna ordinal');
+  if (msg.content == 'worship') {
+    msg.channel.send('all hail the dna ordinal');
   }
 })
 
